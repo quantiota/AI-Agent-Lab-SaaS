@@ -1,29 +1,65 @@
 # AI Agent Lab — SaaS
 
-> Run the AI Agent Lab as a hosted service for your customers.
+Run the AI Agent Lab as a hosted service for your customers.
 
-The **AI Agent Lab** is a complete environment where an AI agent (Claude Code) works alongside a time-series database (QuestDB) and live dashboards (Grafana).
+The **AI Agent Lab** is a complete environment where an AI agent, **Claude Code**, works alongside a time-series database, **QuestDB**, and live dashboards, **Grafana**.
 
-This repo is for the **SaaS entrepreneur**: instead of asking customers to install and operate anything, **you host the AI Agent Lab** and deliver it as an online service. Your customers simply sign up and use it in the browser — no servers, no setup, no operations on their side. You handle the hosting, scaling, updates, and customer support; they get the product.
+This repository is for the **SaaS entrepreneur**.
 
-## Where to start
+Instead of asking customers to install and operate anything, you host the AI Agent Lab and deliver it as an online service. Your customers simply sign up and use it in the browser — no servers, no setup, no operations on their side.
 
-Full setup and docs live in each repo:
+You handle the hosting, scaling, updates, and customer support.
 
-- **[AI Agent Lab](https://github.com/quantiota/AI-Agent-Lab)** — the core lab. Start here.
-- **[AI Agent Host](https://github.com/quantiota/AI-Agent-Host)** — the production-ready, Claude Code-powered edition.
+They get the product.
 
-## Why offer it as a SaaS
+---
 
-- **Zero friction for customers** — they access it over the web; nothing to install or maintain.
-- **You own the service** — host it, brand it, run it as your own product.
-- **Open source (MIT)** — free to build your SaaS on top of.
+## Where to Start
 
-## What I provide
+Full setup and documentation are available in each repository:
 
-A **SaaS template** built on the AI Agent Lab — the starting base for your service.
+- **AI Agent Lab** — the core lab. Start here.
+- **AI Agent Host** — the production-ready, Claude Code-powered edition.
 
-The template does **not** include billing or cloud infrastructure. You add those for your business:
+---
 
-- **Payment gateway** — your subscription/billing integration.
-- **AWS backend** — provisioning of customer instances and backups.
+## Why Offer It as a SaaS?
+
+- **Zero friction for customers**  
+  They access it over the web. Nothing to install, configure, or maintain.
+
+- **You own the service**  
+  Host it, brand it, operate it, and run it as your own product.
+
+- **Open source under the MIT license**  
+  Free to build your SaaS on top of.
+
+---
+
+## What I Provide
+
+A SaaS template built on top of the AI Agent Lab.
+
+This template is the starting base for your hosted service.
+
+The template does **not** include billing or cloud infrastructure. You add those components for your own business.
+
+---
+
+## What You Add
+
+- **Payment gateway**  
+  Your subscription and billing integration.
+
+- **AWS backend**  
+  Provisioning of customer instances and backups.
+
+---
+
+## Target User
+
+This repository is designed for entrepreneurs or developers who want to launch the AI Agent Lab as a hosted SaaS product.
+
+Customers do not need to understand Docker, servers, QuestDB, Grafana, or cloud operations.
+
+They simply use the service in the browser.
