@@ -12,7 +12,7 @@ You handle the hosting, scaling, updates, and customer support.
 
 They get the product.
 
----
+
 
 ## Where to Start
 
@@ -21,7 +21,7 @@ Full setup and documentation are available in each repository:
 - **[AI Agent Lab](https://github.com/quantiota/AI-Agent-Lab)** — the core lab. Start here.
 - **[AI Agent Host](https://github.com/quantiota/AI-Agent-Host)** — the production-ready, Claude Code-powered edition.
 
----
+
 
 ## Why Offer It as a SaaS?
 
@@ -34,7 +34,7 @@ Full setup and documentation are available in each repository:
 - **Open source under the MIT license**  
   Free to build your SaaS on top of.
 
----
+
 
 ## What I Provide
 
@@ -44,7 +44,7 @@ This template is the starting base for your hosted service.
 
 The template does **not** include billing or cloud infrastructure. You add those components for your own business.
 
----
+
 
 ## What You Add
 
@@ -54,7 +54,7 @@ The template does **not** include billing or cloud infrastructure. You add those
 - **AWS backend**  
   Provisioning of customer instances and backups.
 
----
+
 
 ## Target User
 
