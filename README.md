@@ -64,3 +64,10 @@ This repository is designed for entrepreneurs or developers who want to launch t
 Customers do not need to understand Docker, servers, QuestDB, Grafana, or cloud operations.
 
 They simply use the service in the browser.
+
+## Contact
+
+Questions, ideas, or interested in building your SaaS on this?
+
+- Open an [issue](https://github.com/quantiota/AI-Agent-Lab-SaaS/issues) or start a [discussion](https://github.com/quantiota/AI-Agent-Lab-SaaS/discussions).
+- Or reach out via [GitHub](https://github.com/quantiota).
