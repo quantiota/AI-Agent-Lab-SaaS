@@ -18,9 +18,9 @@ They get the product.
 
 Full setup and documentation are available in each repository:
 
-- **[AI Agent Lab](https://github.com/quantiota/AI-Agent-Lab)** — the core lab. Start here.
-- **[AI Agent Host](https://github.com/quantiota/AI-Agent-Host)** — the production-ready, Claude Code-powered edition.
-- **[SaaS Template](https://github.com/quantiota/AI-Agent-Lab-SaaS/tree/main/SaaS_template)** — the landing page, contact-us form and dashboard.
+- [AI Agent Lab](https://github.com/quantiota/AI-Agent-Lab) — the core lab. Start here.
+- [AI Agent Host](https://github.com/quantiota/AI-Agent-Host) — the production-ready, Claude Code-powered edition.
+- [SaaS Template](https://github.com/quantiota/AI-Agent-Lab-SaaS/tree/main/SaaS_template) — the landing page, contact-us form and dashboard.
 
 
 
