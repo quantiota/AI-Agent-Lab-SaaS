@@ -4,7 +4,7 @@ Run the AI Agent Lab as a hosted service for your customers.
 
 The **AI Agent Lab** is a complete environment where an AI agent, **Claude Code**, works alongside a time-series database, **QuestDB**, and live dashboards, **Grafana**.
 
-This repository is for the **SaaS entrepreneur**.
+This repository is for the **SaaS entrepreneur** — a small team is enough to launch: a marketer to bring the customers, and a DevOps engineer to deploy, operate, and support it.  
 
 Instead of asking customers to install and operate anything, you host the AI Agent Lab and deliver it as an online service. Your customers simply sign up and use it in the browser — no servers, no setup, no operations on their side.
 
