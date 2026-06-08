@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your account — AI Agent Lab</title>
+</head>
+<body style="font-family:system-ui;max-width:640px;margin:4rem auto;line-height:1.5">
+  <h1>Your account</h1>
+  <p>Signed in as <b>{{ user.email }}</b>.</p>
+
+  {% if subscription %}
+    <p>Subscription: <b>{{ subscription.status }}</b></p>
+    <!-- TODO: replace with the tenant's real per-instance lab URL (set at provisioning) -->
+    <p><a href="#">Go to my lab →</a></p>
+    <button id="billing">Manage billing</button>
+  {% else %}
+    <p>No active subscription. <a href="/">Subscribe →</a></p>
+  {% endif %}
+
+  <p style="margin-top:2rem"><a href="/logout">Log out</a></p>
+
+  <script>
+    const b = document.getElementById('billing');
+    if (b) b.onclick = async () => {
+      const { url, error } = await (await fetch('/billing', { method: 'POST' })).json();
+      if (error) { alert(error); return; }
+      location = url;   // Stripe Customer Portal
+    };
+  </script>
+</body>
+</html>

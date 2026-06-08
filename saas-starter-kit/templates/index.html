@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Agent Lab — Hosted</title>
+  <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body style="font-family:system-ui;max-width:640px;margin:4rem auto;line-height:1.5">
+  <!-- ⚠️ Placeholder. Replace this template with your real landing page (www). -->
+  <h1>AI Agent Lab — Hosted</h1>
+  <p>Your own AI research lab, running and managed. One person, your stack, in one dashboard.</p>
+
+  {% if user %}
+    <p>Signed in as <b>{{ user.email }}</b>.</p>
+    {% if subscription %}
+      <p>Subscription: <b>{{ subscription.status }}</b> · <a href="/dashboard">Go to dashboard →</a></p>
+    {% else %}
+      <button id="subscribe">Subscribe</button>
+    {% endif %}
+    <p><a href="/logout">Log out</a></p>
+  {% else %}
+    <p><a href="/login">Sign in to get started →</a></p>
+  {% endif %}
+
+  <script>
+    const btn = document.getElementById('subscribe');
+    if (btn) btn.onclick = async () => {
+      const pk = await (await fetch('/config', { method: 'POST' })).json();
+      const stripe = Stripe(pk);
+      const { sessionId, error } = await (await fetch('/checkout', { method: 'POST' })).json();
+      if (error) { alert(error); return; }
+      stripe.redirectToCheckout({ sessionId });
+    };
+  </script>
+</body>
+</html>
