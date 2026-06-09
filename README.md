@@ -36,24 +36,42 @@ Full setup and documentation are available in each repository:
   Free to build your SaaS on top of.
 
 
-
 ## What I Provide
 
 A SaaS template built on top of the AI Agent Lab.
 
-This template is the starting base for your hosted service.
+This template is the starting base for your hosted service and already includes the core SaaS control plane:
 
-The template does **not** include billing or cloud infrastructure. You add those components for your own business.
+- **Landing page**
+- **Contact form**
+- **Auth0 authentication**
+- **Stripe Checkout**
+- **Stripe webhook**
+- **Customer Portal**
+- **Billing and invoice access**
+- **Local customer database**
+- **Subscription status tracking**
 
+The customer workflow is already in place:
+
+```text
+Sign up → Pay → Subscription active → Customer Portal → Billing / invoices
+
+The template is therefore ready for SaaS validation and customer onboarding in test mode or production mode.
+
+The only major component not included yet is automated cloud provisioning of customer AI Agent Lab instances.
 
 
 ## What You Add
 
-- **Payment gateway**  
-  Your subscription and billing integration.
+- **AWS provisioning backend**  
+  Automated provisioning of customer AI Agent Lab instances after successful payment.
 
-- **AWS backend**  
-  Provisioning of customer instances and backups.
+- **Customer instance management**  
+  Per-customer subdomain, secrets, TLS certificates, backups, and service lifecycle management.
+
+- **Operational support**  
+  Monitoring, updates, backups, recovery, and customer support for the hosted instances.
 
 
 
