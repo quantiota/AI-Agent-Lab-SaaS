@@ -56,7 +56,7 @@ The customer workflow is already in place:
 
 ```text
 Sign up → Pay → Subscription active → Customer Portal → Billing / invoices
-
+```
 The template is therefore ready for SaaS validation and customer onboarding in test mode or production mode.
 
 The only major component not included yet is automated cloud provisioning of customer AI Agent Lab instances.
