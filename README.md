@@ -51,6 +51,7 @@ This template is the starting base for your hosted service and already includes 
 - **Billing and invoice access**
 - **Local customer database**
 - **Subscription status tracking**
+- **Support Ticket for subscribed users**
 
 The customer workflow is already in place:
 
