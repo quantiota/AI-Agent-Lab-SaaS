@@ -1,5 +1,7 @@
 # AI Agent Lab — SaaS
 
+![Business Idea](business-idea.jpg)
+
 Run the AI Agent Lab as a hosted service for your customers.
 
 The **AI Agent Lab** is a complete environment where an AI agent, **Claude Code**, works alongside a time-series database, **QuestDB**, and live dashboards, **Grafana**.
