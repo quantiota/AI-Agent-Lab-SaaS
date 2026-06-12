@@ -54,6 +54,7 @@ This template is the starting base for your hosted service and already includes 
 - **Local customer database**
 - **Subscription status tracking**
 - **Support Ticket for subscribed users**
+- **Blog with Wagtail**
 
 The customer workflow is already in place:
 
